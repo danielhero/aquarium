@@ -1,13 +1,8 @@
 .tipList {
     flex-basis: 20%;
-    
-}
-
-.tips__title {
-    text-align: center;
+    flex-wrap: wrap;
 }
 
 .tip {
     margin: 1rem 0 2rem 0;
-    text-align: center;
 }

@@ -1,12 +1,9 @@
-
 const initializeDetailButtonEvents = () => {
     // CAN'T TOUCH THIS - START
     const allCloseButtons = document.querySelectorAll(".button--close")
 
     for (const btn of allCloseButtons) {
-        btn.addEventListener(
-            "click",
-            theEvent => {
+        btn.addEventListener("click", theEvent => {
                 const dialogElement = theEvent.target.parentNode
                 dialogElement.close()
             }
@@ -26,6 +23,7 @@ const initializeDetailButtonEvents = () => {
         }
     )
 
+    // Show Betty's details when the button is clicked
     document.querySelector("#button--betty").addEventListener(
         "click",
         theClickEvent => {
@@ -34,6 +32,7 @@ const initializeDetailButtonEvents = () => {
         }
     )
 
+    // Show Nemo's details when the button is clicked
     document.querySelector("#button--nemo").addEventListener(
         "click",
         theClickEvent => {
@@ -42,6 +41,7 @@ const initializeDetailButtonEvents = () => {
         }
     )
 
+    // Show Dory's details when the button is clicked
     document.querySelector("#button--dory").addEventListener(
         "click",
         theClickEvent => {
@@ -49,8 +49,6 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
-
 }
 
-export default initializeDetailButtonEvents;
-
+export default initializeDetailButtonEvents

@@ -2,25 +2,15 @@
 @import 'fish.css';
 @import 'tips.css';
 
-
-.fish__page {
-    background-color: bisque;
-}
 .container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
 
-
-
-
-
-
 .bordered {
-    border: 1px solid black;
+    border: 1px dashed goldenrod;
 }
-
 
 
 
