@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    background-color: #2fda7169;
+    background-color: antiquewhite;
 }
 
 .container {
@@ -30,6 +30,6 @@ body {
 }
 
 .bordered {
-    border: 1px dashed goldenrod;
-    background-color: #5c56bd68;
+    border: 3px solid navy;
+    
 }

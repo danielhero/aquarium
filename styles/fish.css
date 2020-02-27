@@ -2,9 +2,12 @@
     flex-basis: 65%;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
+
 .fish__image {
-    width: 8rem;
-    height: 8rem;
+    width: 200px;
+    height: 200px;
 }
+

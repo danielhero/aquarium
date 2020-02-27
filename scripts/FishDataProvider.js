@@ -6,36 +6,44 @@
  */
 const fishCollection = [
     {
-        name: "Betty",
-        species: "Longtooth Barracuda",
-        location: "Cumberland River",
-        length: "2 ft",
-        food: ["Squid"],
-        image: "https://i.ytimg.com/vi/z_XlTRYLZ1Q/maxresdefault.jpg"
+        Name: "Angela",
+        Species: "Blueface Angelfish",
+        Location: "Indonesia",
+        Length: "1 ft",
+        Food: ["Shrimp, Algae"],
+        Image: "https://www.liveaquaria.com/images/products/swatches/st_73861_Blueface_Angelfish_Adult.jpg"
     },
     {
-        name: "Bart",
-        species: "Orange Clownfish",
-        location: "Caribbean",
-        length: "3 in",
-        food: ["Algae", "Crustaceans"],
-        image: "https://3.imimg.com/data3/IW/XT/GLADMIN-105863/fish-125x125.jpg"
+        Name: "Earl",
+        Species: "Lantern Bass",
+        Location: "Caribbean",
+        Length: "4.5 in",
+        Food: ["Shrimp"],
+        Image: "https://www.liveaquaria.com/images/categories/large/lg_76586_Lantern_Bass.jpg"
     },
     {
-        length: "2 in",
-        species: "Clownfish",
-        food: ["Plankton"],
-        location: "Great Barrier Reef",
-        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7xhhlta3q-wVKpgzGdTlpAHaFj%26pid%3DApi&f=1",
-        name: "Nemo"
+        Name: "Spike",
+        Species: "Porcupine Pufferfish",
+        Location: "Carribean",
+        Length: "1 ft",
+        Food: ["Krill, Shrimp"],
+        Image: "https://www.liveaquaria.com/images/categories/large/lg_102001_Porcupine_Puffer.jpg"
     },
     {
-        name: "Dory",
-        species: "Blue Tang",
-        location: "New Zealand Sea",
-        length: "4 in",
-        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthedisneyinme.files.wordpress.com%2F2013%2F12%2Fdory.jpg&f=1&nofb=1",
-        food: ["Clownfish"]
+        Name: "Phineas",
+        Species: "Yellowband Wrasse",
+        Location: "Fiji",
+        Length: "5.5 in",
+        Food: ["Shrimp"],
+        Image: "https://www.liveaquaria.com/images/categories/large/lg_75657_Velvet_Multicolor_Fairy_Wrasse.jpg"
+    },
+    {
+        Name: "Seabiscuit",
+        Species: "Lined Seahorse",
+        Location: "Western Atlantic Ocean",
+        Length: "7 in",
+        Food: ["Shrimp"],
+        Image: "https://www.liveaquaria.com/images/categories/large/lg73135LinedSeahorse.jpg"
     }
 ]
 
