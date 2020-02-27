@@ -1,10 +1,9 @@
 import initializeDetailButtonEvents from './dialog.js'
 import { useFish } from './FishDataProvider.js'
+import FishList from './FishList.js'
 
-const allTheFish = useFish()
+// initializeDetailButtonEvents()
 
-for (const fish of allTheFish) {
-    console.log(fish)
-}
+const arrayOfTheFishObjects = useFish()
 
-initializeDetailButtonEvents()
+FishList()
