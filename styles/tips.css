@@ -1,13 +1,14 @@
 .tipList {
     flex-basis: 20%;
-    
+    margin-right: 20pt;
 }
 
-.tip__header {
+.tipList__header {
     text-align: center;
 }
 
 .tip {
     margin: 1rem 0 2rem 0;
     text-align: center;
+    padding: 10pt;
 }

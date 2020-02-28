@@ -14,41 +14,46 @@ const initializeDetailButtonEvents = () => {
 
     // You will be writing code below this line
 
-    // Show Bart's details when the button is clicked
-    document.querySelector("#button--bart").addEventListener(
+    document.querySelector("#button--angela").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--bart")
+            const theDialog = document.querySelector("#details--angela")
             theDialog.showModal()
         }
     )
 
-    // Show Betty's details when the button is clicked
-    document.querySelector("#button--betty").addEventListener(
+    document.querySelector("#button--earl").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--betty")
+            const theDialog = document.querySelector("#details--earl")
             theDialog.showModal()
         }
     )
 
-    // Show Nemo's details when the button is clicked
-    document.querySelector("#button--nemo").addEventListener(
+    document.querySelector("#button--spike").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--nemo")
+            const theDialog = document.querySelector("#details--spike")
             theDialog.showModal()
         }
     )
 
-    // Show Dory's details when the button is clicked
-    document.querySelector("#button--dory").addEventListener(
+    document.querySelector("#button--phineas").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--dory")
+            const theDialog = document.querySelector("#details--phineas")
             theDialog.showModal()
         }
     )
+
+    document.querySelector("#button--seabiscuit").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--seabiscuit")
+            theDialog.showModal()
+        }
+    )
+
 }
 
 export default initializeDetailButtonEvents
