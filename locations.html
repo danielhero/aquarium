@@ -5,27 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
     <header>
+        <h1 class="site__header">Harvesting Locations</h1>
         <nav class="navigation">
             <a class="navigation__link" href="index.html">Martin's Aquarium</a>
             <a class="navigation__link" href="locations.html">Harvesting Locations</a>
         </nav>
     </header>
 
-    <main class="container">
-        <article class="quotes">
-            <section class="quote"></section>
-            <section class="quote"></section>
-            <section class="quote"></section>
+    <main class="containerLoc">
+        <article class="quotes bordered">
+            <h3 class="quotesHeader">Fish Quotes</h3>
+            <section class="quote"><p>Do not tell fish stories where the people know you; but particularly, don't tell them where they know the fish. -Mark Twain</p></section>
+            <section class="quote"><p>Last year I went fishing with Salvador Dali. He was using a dotted line. He caught every other fish. -Steven Wright</p></section>
+            <section class="quote"><p>No human being, however great, or powerful, was ever so free as a fish. -John Ruskin</p></section>
         </article>
         <article class="locations">
-            <section class="location"></section>
-            <section class="location"></section>
-            <section class="location"></section>
+            <h3>Harvesting Location Info</h3>
+            
         </article>
     </main>
-    <script src="./scripts/locations/main.js"></script>
+    <script type="module" src="./scripts/locations/main.js"></script>
 </body>
 </html>

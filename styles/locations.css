@@ -1,0 +1,16 @@
+.locations {
+    flex-basis: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+.locations__image {
+
+    width: 350px;
+    height: 250px;
+
+}
