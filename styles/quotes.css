@@ -1,13 +1,18 @@
-.quotes {
+.quotesList {
     flex-basis: 65%;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 20pt;
-    flex-direction: column;  
+    flex-direction: column;
+    margin-right: 30rem;      
 }
 
-.quotesHeader {
-    text-align: center;
+.quote {
+    margin-left: 1rem;
+}
+
+.quotesList__Header {
+    margin-left: 1rem;
+    
 
 
 }

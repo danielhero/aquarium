@@ -2,15 +2,34 @@
     flex-basis: 65%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    
+    
+    
+}
+
+.locationsContainer {
     background-color: antiquewhite;
     border: 3px solid black;
-    text-align: center;
+    margin-top: 2rem;
     
+}
+
+.locations__info {
+margin: 2rem;
+}
+
+.locations__header {
+    margin-left: 1rem;
+    
+
 }
 
 .locations__image {
 
-    width: 350px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
 
 }
